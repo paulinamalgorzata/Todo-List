@@ -40,6 +40,11 @@ form {
   align-items: center;
 }
 
+/*szerokość okienka tesktu do wpisywania*/
+.todo-input {
+  width: 90vh;
+}
+
 form input,
 form button {
   padding: 0.5rem;
@@ -48,13 +53,62 @@ form button {
   background: white;
 }
 
+.todo-input {
+  outline: none;
+}
+
 form button {
   color: rgba(28, 28, 116, 0.404);
-  background: white;
+  background-color: white;
   cursor: pointer;
 }
 
 form button:hover {
-  background: rgb(98, 98, 112);
+  background-color: rgb(98, 98, 112);
+  color: white;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  width: 90vh;
+  list-style: none;
+}
+
+.todo {
+  background-color: #fff;
+  color: black;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.complete-btn,
+.trash-btn {
+  background-color: rgba(28, 28, 116, 0.404);
+  color: #fff;
+  border: 1px solid;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.trash-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.complete-btn:hover {
+  background-color: green;
   color: white;
 }
