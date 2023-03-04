@@ -6,5 +6,5 @@ const todoList = document.querySelector(".todo-list");
 todoButton.addEventListener("click", addTodo);
 //Functions
 function addTodo(event) {
-  /* od 16:40 minuty - console log wypróbuj*/
+  /* od 16:40 minuty - console log wypróbuj sobie*/
 }
