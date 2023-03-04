@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Shantell Sans", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("./background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  font-size: 1.7rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form button {
+  color: rgba(28, 28, 116, 0.404);
+  background: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: rgb(98, 98, 112);
+  color: white;
+}
