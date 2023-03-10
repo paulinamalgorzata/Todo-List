@@ -61,6 +61,7 @@ form button {
   color: rgba(28, 28, 116, 0.404);
   background-color: white;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 form button:hover {
@@ -126,4 +127,45 @@ form button:hover {
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
+}
+
+.fall {
+  transform: rotate(990deg) scale(0.01);
+  opacity: 5s;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  color: rgb(98, 98, 112);
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: rgba(28, 28, 116, 0.404);
+  color: #fff;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select:hover::after {
+  background-color: rgb(98, 98, 112);
+  color: white;
 }
