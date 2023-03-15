@@ -131,7 +131,6 @@ form button:hover {
 
 .fall {
   transform: rotate(990deg) scale(0.01);
-  opacity: 5s;
 }
 
 select {
