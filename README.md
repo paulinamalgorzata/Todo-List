@@ -4,7 +4,7 @@ Todo-List in vanilla JS including local storage.
 The list contains a Todo List header, underneath a todo div with an input field for typing things to do.
 After entering the things to do, we add it to the list by clicking on the todo-button with the plus-square symbol.
 You can mark a to-do item as done or remove it from the list.
-We add the completed element to Copleted by clicking on the coplete-btn with the check symbol,
+We add the completed element to Completed by clicking on the complete-btn with the check symbol,
 which has a green background-color after :hover, runs transition with line-through and opacity: 0.5.
 We remove an item from the todo list by clicking trash-btn with the trash symbol, which has a red background-color after :hover.
 After clicking on trash-btn, we run the transition with rotate and scale(0.01). Transitionend after animation activates remove.
