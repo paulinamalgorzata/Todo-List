@@ -28,6 +28,59 @@ body {
   background-repeat: repeat;
 }
 
+@media only screen and (max-width: 767px) {
+  body {
+    height: 100%;
+    background: url("./background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  header {
+    font-size: 0.4rem;
+  }
+  .todo-input {
+    width: 20vh;
+  }
+  form input,
+  form button {
+    padding: 0.1rem;
+    font-size: 0.3rem;
+    border: none;
+    background: white;
+  }
+
+  .todo {
+    background-color: #fff;
+    color: black;
+    margin: 0.1rem;
+    font-size: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  .complete-btn,
+  .trash-btn {
+    background-color: rgba(28, 28, 116, 0.404);
+    color: #fff;
+    border: 1px solid;
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    cursor: pointer;
+  }
+
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    background: rgba(28, 28, 116, 0.404);
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 0.1rem;
+  }
+}
+
 header {
   font-size: 1.7rem;
 }
