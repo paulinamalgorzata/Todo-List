@@ -1,3 +1,68 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .todo-input {
+    width: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  form input,
+  form button {
+    padding: 1px;
+    font-size: 5px;
+    border: none;
+    background: white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .todo {
+    background-color: #fff;
+    color: black;
+    margin: 1px;
+    font-size: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .complete-btn,
+  .trash-btn {
+    background-color: rgba(28, 28, 116, 0.404);
+    color: #fff;
+    border: 0.1px solid;
+    padding: 1px;
+    font-size: 5px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    background: rgba(28, 28, 116, 0.404);
+    color: #fff;
+    top: 0;
+    right: 0;
+    padding: 5px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,59 +91,6 @@ body {
   background: url("./background.jpg");
   background-size: cover;
   background-repeat: repeat;
-}
-
-@media only screen and (max-width: 767px) {
-  body {
-    height: 100%;
-    background: url("./background.jpg");
-    background-size: cover;
-    background-repeat: repeat;
-  }
-  header {
-    font-size: 0.4rem;
-  }
-  .todo-input {
-    width: 20vh;
-  }
-  form input,
-  form button {
-    padding: 0.1rem;
-    font-size: 0.3rem;
-    border: none;
-    background: white;
-  }
-
-  .todo {
-    background-color: #fff;
-    color: black;
-    margin: 0.1rem;
-    font-size: 0.3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: all 0.5s ease;
-  }
-
-  .complete-btn,
-  .trash-btn {
-    background-color: rgba(28, 28, 116, 0.404);
-    color: #fff;
-    border: 1px solid;
-    padding: 0.1rem;
-    font-size: 0.2rem;
-    cursor: pointer;
-  }
-
-  .select::after {
-    content: "\25BC";
-    position: absolute;
-    background: rgba(28, 28, 116, 0.404);
-    color: #fff;
-    top: 0;
-    right: 0;
-    padding: 0.1rem;
-  }
 }
 
 header {
