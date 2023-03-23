@@ -184,7 +184,7 @@ select {
   /*width of the main div text box to enter*/
 
   .todo-input {
-    width: 190px;
+    width: 150px;
   }
 
   form input,
@@ -208,17 +208,20 @@ select {
   }
 
   select {
-    width: 8rem;
+    width: 10rem;
     padding: 0.1rem;
+    font-size: 1.2rem;
   }
 
   .select {
-    margin: 0.1rem;
+    margin: 0.3rem;
+    font-size: 1.2rem;
     position: relative;
     overflow: hidden;
   }
 
   .select::after {
     padding: 0.1rem;
+    font-size: 1.2rem;
   }
 }
