@@ -7,7 +7,7 @@ const filterOption = document.querySelector(".filter-todo");
 document.addEventListener("DOMContentLoaded", getTodos);
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteCheck);
-filterOption.addEventListener("click" || "touchStart", filterTodo);
+filterOption.addEventListener("click" || "touchend", filterTodo);
 //Functions
 function addTodo(event) {
   // Prevent form from submitting
@@ -139,3 +139,5 @@ function removeLocalTodos(todo) {
   todos.splice(todos.indexOf(todoIndex), 1);
   localStorage.setItem("todos", JSON.stringify(todos));
 }
+
+addEventListener("");
